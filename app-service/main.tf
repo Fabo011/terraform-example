@@ -1,6 +1,8 @@
+// Azure App Service
+
 variable "resource_group_name" {}
 variable "location" {}
-
+variable "API_KEY" {}
 
 resource "azurerm_service_plan" "app-test-service-plan" {
   name                = "app-test-service-plan"
@@ -24,6 +26,7 @@ resource "azurerm_linux_web_app" "test-app" {
 
   app_settings = {
     "WEBSITE_RUN_FROM_PACKAGE" = "1"
+    "API_KEY"                  = var.API_KEY
   }
 }
 

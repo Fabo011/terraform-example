@@ -1,8 +1,8 @@
 # Getting Started with Terraform and Azure
 
-**Get Started:** https://developer.hashicorp.com/terraform/tutorials
-**Get Started with Azure:** https://developer.hashicorp.com/terraform/tutorials/azure-get-started
-**Manage State in HCP Terraform to work with Team Mates:** https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-migrate
+**Get Started:** https://developer.hashicorp.com/terraform/tutorials <br>
+**Get Started with Azure:** https://developer.hashicorp.com/terraform/tutorials/azure-get-started <br>
+**Manage State in HCP Terraform to work with Team Mates:** https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-migrate <br>
 
 
 ### Azure related commands

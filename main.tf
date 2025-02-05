@@ -1,3 +1,14 @@
+terraform {
+  cloud {
+    organization = "Fabo011"
+    workspaces {
+      name = "terraform-test"
+    }
+  }
+
+  required_version = ">= 1.1.0"
+}
+
 provider "azurerm" {
   features {}
 }
